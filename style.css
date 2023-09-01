@@ -1,0 +1,80 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Raleway:wght@400;600&display=swap');
+
+
+  body {
+      font-family: 'Poppins', sans-serif;
+  }
+
+  .container {
+      max-width: 1110px;
+  }
+
+
+  .shop-item {
+      height: 357px;
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+  }
+
+
+
+  .shop-item01 {
+      background-image: url(image/item01.png);
+  }
+
+  .shop-item02 {
+      background-image: url(image/item02.png);
+  }
+
+  .shop-item03 {
+      background-image: url(image/item03.png);
+  }
+
+
+  .sale {
+      background-color: rgb(48, 84, 151);
+      color: white;
+      text-transform: uppercase;
+      padding: 11px 20px 10px;
+      position: absolute;
+      top: 13px;
+      left: 13px;
+      font-size: 14px;
+  }
+
+
+  .nosale {
+      visibility: hidden;
+  }
+
+  .text-info {
+      position: absolute;
+      bottom: 0;
+      left: 0.8rem;
+      width: 100%;
+      background-color: rgb(48, 84, 151);
+      padding-top:10px;
+      padding-bottom: 10px;
+    
+    }
+
+  .text-info .col-4{
+    text-align: right;
+  }
+
+  .text-info h3 {
+      font-size: 20px;
+      color: white;
+      margin-bottom: 0;
+  }
+
+  .text-info p {
+    font-size: 18px;
+    color: white;
+    border: 1.5px solid white;
+    border-radius: 5px;
+    padding: 5px 16px;
+    margin-bottom: 0;
+}
